@@ -1,0 +1,88 @@
+/* Apply box-sizing to all elements */
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Apply styles to focused elements */
+:focus {
+  outline: rgb(253, 253, 253);
+}
+
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #dc0303, #dccb6c);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the input elements */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid rgb(24, 162, 52);
+  border-radius: 4px;
+}
+
+/* Style the search container */
+.search-container {
+  text-align: center;
+  background-color: rgb(162, 67, 67) 14, 67, 67;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style input and suggestions within the search container */
+.search-container input,
+.search-container .suggestions {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Further style the input within the search container */
+.search-container input {
+  padding: 10px;
+}
+
+/* Style the suggestions list within the search container */
+.search-container .suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list with suggestions */
+ul.has-suggestions {
+  border: 1px solid rgb(107, 60, 60);
+  border-radius: 4px;
+}
+
+/* Style the list items */
+ul li {
+  padding: 8px;
+}
+
+/* Style the list items on hover */
+ul li:hover {
+  background-color: #5abae6d6;
+}
+
+/* Apply additional styling to the input */
+input {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
