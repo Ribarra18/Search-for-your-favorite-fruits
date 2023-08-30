@@ -1,7 +1,7 @@
 /* Apply box-sizing to all elements */
 * {
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@
 /* Style the body */
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #dc0303, #dccb6c);
+  background: linear-gradient(to right, #dccb6c, #dc0303);
   margin: 0;
   display: flex;
   justify-content: center;
@@ -26,18 +26,17 @@ input {
   width: 100%;
   padding: 8px;
   margin-bottom: 12px;
-  border: 1px solid rgb(24, 162, 52);
+  border: 1px solid #dc0303;
   border-radius: 4px;
 }
 
 /* Style the search container */
 .search-container {
   text-align: center;
-  background-color: rgb(162, 67, 67) 14, 67, 67;
+  background-color: linear-gradient(to right, #dccb6c, #dc0303);
   padding: 24px;
   border-radius: 8px;
-  box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.1);
-}
+  }
 
 /* Style input and suggestions within the search container */
 .search-container input,
